@@ -8,7 +8,7 @@ import interfaz.UI;
  * Version: 1.0.0
  * Date: 19/07/22
  * Copyright: Daniel Batres
- * @author Daniel Batres <danielbatresusergmail.com>
+ * @author Daniel Batres <danielbatresuser@gmail.com>
  * 
  * Aplicación de consola para ejercicios practicos de Java SE
  * 
