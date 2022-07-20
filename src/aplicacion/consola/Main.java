@@ -10,6 +10,8 @@ import interfaz.consola.UI;
  * 
  * Aplicación de consola para ejercicios practicos de Java SE
  * 
+ * Repositorio: https://github.com/danielbatres/java-practice
+ * 
  */
 
 public class Main {
