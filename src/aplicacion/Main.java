@@ -1,5 +1,7 @@
-package aplicacion.consola;
-import interfaz.consola.UI;
+package aplicacion;
+
+
+import interfaz.UI;
 
 /**
  * Class Name: Main

@@ -16,18 +16,18 @@ public class Ciclo {
         
     public void obtenerNotaFinal() {
         System.out.println("Digite la nota de su primer parcial");
-        this.parcialUno = calculo(this.parcialUno, 20);
+        parcialUno = calculo(parcialUno, 20);
             
         System.out.println("Digite la nota de su segundo parcial");
-        this.parcialDos = calculo(this.parcialDos, 25);
+        parcialDos = calculo(parcialDos, 25);
             
         System.out.println("Digite la nota de su tercer parcial");
-        this.parcialTres = calculo(this.parcialTres, 40);
+        parcialTres = calculo(parcialTres, 40);
             
         System.out.println("Ingrese la nota de la tarea");
-        this.notaTarea = calculo(this.notaTarea, 15);
+        notaTarea = calculo(notaTarea, 15);
             
-        float notaFinal = Math.round(this.parcialUno + this.parcialDos + this.parcialTres + this.notaTarea);
+        float notaFinal = Math.round(parcialUno + parcialDos + parcialTres + notaTarea);
         
         if (notaFinal > 10) {
             System.out.println("Datos incorrectos, tu nota no puede ser mayor a 10.0");
@@ -45,7 +45,7 @@ public class Ciclo {
         }
     }
     
-    public float calculo(float nota, int porcentaje) {
+    private float calculo(float nota, int porcentaje) {
         try {
             nota = sc.nextFloat() * porcentaje / 100;
         } catch (Exception e) {

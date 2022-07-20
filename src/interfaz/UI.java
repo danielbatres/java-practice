@@ -1,4 +1,4 @@
-package interfaz.consola;
+package interfaz;
 import ejercicio.ciclo.Ciclo;
 import ejercicio.circunferencia.Circunferencia;
 import ejercicio.logica.Logica;

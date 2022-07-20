@@ -54,7 +54,7 @@ public class Logica {
         }
     }
     
-    public float notas(float nota) {
+    private float notas(float nota) {
         try {
             nota = sc.nextFloat();
         } catch (Exception e) {
@@ -66,12 +66,12 @@ public class Logica {
         return nota;
     }
     
-    public float notasParciales() {
+    private float notasParciales() {
         float notaTotal = (notaParcialUno + notaParcialDos + notaParcialTres);
         return notaTotal / 3 * 55 / 100;
     }
     
-    public float promedios(float nota, int promedio) {
+    private float promedios(float nota, int promedio) {
         return nota * promedio / 100;
     }
 }
